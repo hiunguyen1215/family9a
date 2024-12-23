@@ -37,6 +37,8 @@ body {
 h1 {
   font-family: "Courier New","Lucida Console","Monaco",monospace;
   text-align:center;
+  position: relative;
+  z-index: 1;
 }
 
 @keyframes slide {
@@ -49,14 +51,25 @@ h1 {
 }
 h2 {
   font-family: "Courier New","Lucida Console","Monaco",monospace;
+  position: relative;
+  z-index: 1;
 }
 li {
   font-family: "Monaco",monospace;
   color: mintcream;
 }
+ol {
+  z-index: 1;
+}
+li {
+  position: relative;
+  z-index: 1;  
+}
 a {
   font-family:"Monaco",monospace;
   color: mintcream;
+  position: relative;
+  z-index: 1;
 
 }
 i{
