@@ -65,6 +65,10 @@ li {
   position: relative;
   z-index: 1;  
 }
+img{
+  position: relative;
+  z-index: 1;
+}
 a {
   font-family:"Monaco",monospace;
   color: mintcream;
